@@ -1,36 +1,29 @@
-body {
-  background-color: beige;
-  font-family: 'Roboto', sans-serif;
-  color: #333;
-  margin: 0;
-  padding: 20px;
-}
-
-#info-box {
-  background-color: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  padding: 20px;
-  animation: fadeIn 1s ease-in-out;
-}
-
-h1 {
-  color: gold;
-  font-size: 2em;
-}
-
-ol {
-  padding-left: 20px;
-}
-
-li {
-  margin: 10px 0;
-}
-
-img {
-  border-radius: 5px;
-  margin: 10px 0;
-  max-width: 100%;
-  height: auto;
-  border: solid 5px;
-}
+<html>
+  <head>
+    <title>Noa</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="info-box">
+      <h1>Infos über Noa :D</h1>
+      <hr>
+      <ol>
+        <li>Wohnort: Stationenweg 2, 9034 Eggersriet</li>
+        <img src="Noashaus.jpeg" height="200px">
+        <li>Nachname: Weber</li>
+        <li>Klassenlehrer: Daniel Vogler</li>
+        <img src="Vogler.jpeg" height="200px">
+        <li>Tims Haus: Ahornstrasse 7</li>
+        <img src="Timshaus.jpeg" height="200px">
+        <li>Fortnite IGN: ClippedByN</li>
+        <li>Ist Farbenblind (angeblich)</li>
+        <li>Er stink</li>
+        <li>Tims Facereveal</li>
+        <img src="Tim.jpeg" height="250px">
+        <li>Average Noa meals</li>
+        <img src="Meal.jpeg">
+      </ol>
+    </div>
+  </body>
+</html>
