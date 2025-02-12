@@ -30,7 +30,6 @@ li {
 img {
   border-radius: 5px;
   margin: 10px 0;
-  max-width: 100%;
-  height: auto;
+  height: 200px;
   border: solid 5px;
 }
